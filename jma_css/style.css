@@ -1,0 +1,106 @@
+body {
+	background-color: #ecf0f1;
+}
+
+@font-face {
+	font-family: Exo Regular;
+	src: url('../fonts/exo-regular-webfont.eot');
+	src: url('../fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/exo-regular-webfont.woff') format('woff'), url('../fonts/exo-regular-webfont.ttf') format('truetype'), url('../fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
+}
+
+a {
+	color: #080808;
+	transition: all 0.3s ease-out;
+}
+
+a:hover {
+	color: #bfbfbf;
+	transition: all 0.3s ease-in;
+}
+
+a:focus {
+	color: #e74c3c;
+}
+
+#navcont {
+	position: fixed;
+	width: 101.1%;
+	background-color: #e74c3c;
+	z-index: 1;
+}
+
+#nav {	
+	background-color: #e74c3c;
+	z-index: 1;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.nav li {
+	background-color: #e74c3c;
+	transition: all 0.3s ease-out;
+	color: #1a1a1a;
+}
+
+.nav li:hover {
+	background-color: #c0392b;
+	color: #ffffff;
+	transition: all 0.3s ease-in;
+}
+
+h1 {
+	font-family: Mohave;
+}
+
+#tms {
+	font-size: 50px;
+	text-align: right;
+}
+
+#processes {
+	font-size: 45px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Mohave;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Roboto;	
+}
+
+#navlink {
+	font-family: Mohave;
+	text-align: right;
+}
+
+h4 {
+	font-family: Roboto;
+}
+
+#title {
+	background-color: #e74c3c;
+}
+
+li {
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+p {
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+#footer {
+	background-color: #e74c3c;
+}
+
+#upjma {
+	color: #f8f8f8;
+	text-align: center;
+}
