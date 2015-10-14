@@ -57,6 +57,7 @@ h1 {
 #tms {
 	font-size: 50px;
 	text-align: right;
+	color: #f8f8f8;
 }
 
 #processes {
@@ -73,6 +74,15 @@ h3 {
 	font-family: Roboto;	
 }
 
+#intro_row {
+	padding: 50px 300px 50px 300px;
+	text-align: center;
+}
+
+#processes_row {
+	padding: 50px 50px 50px 50px;
+}
+
 #navlink {
 	font-family: Mohave;
 	text-align: right;
@@ -83,6 +93,12 @@ h4 {
 }
 
 #title {
+	background-image:url('../DSCF4450.jpg');
+	z-index: 0;
+	/*background-color: #e74c3c;*/
+}
+
+#sysproc {
 	background-color: #e74c3c;
 }
 
