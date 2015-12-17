@@ -77,7 +77,7 @@ a:focus {
 @font-face {
 	font-family: Exo Regular;
 	src: url('../cursor_fonts/exo-regular-webfont.eot');
-	src: url('../cursor_fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/exo-regular-webfont.woff') format('woff'), url('../fonts/exo-regular-webfont.ttf') format('truetype'), url('../fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
+	src: url('../cursor_fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../cursor_fonts/exo-regular-webfont.woff') format('woff'), url('../cursor_fonts/exo-regular-webfont.ttf') format('truetype'), url('../cursor_fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
 }
 
 #home h1 {
