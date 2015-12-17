@@ -1,0 +1,98 @@
+.row {
+	width: 101.1%;
+}
+
+a {
+	color: #080808;
+}
+
+a:hover {
+	background-color: #26A65B;
+	color: #bfbfbf;
+}
+
+a:focus {
+	color: #080808;
+}
+
+#navcont {
+	position: fixed;
+	width: 101.1%;
+	background-color: #26A65B;
+	z-index: 1;
+}
+
+.nav {	
+	background-color: #26A65B;
+	z-index: 1;
+}
+
+.navbar-nav {
+	background-color: #26A65B;
+	float: right;
+}
+
+.navbar-default .navbar-inverse {
+	background-color: #26A65B;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.nav li {
+	font-family: Sintony;
+	color: #080808;
+	background-color: #26A65B;
+	transition: all 0.3s ease-out;
+}
+
+.navbar-nav li a:hover {
+	font-family: Sintony;
+	color: #080808;
+	background-color: #008B45;
+}
+
+.navbar-nav li a:focus {
+	font-family: Sintony;
+	color: #080808;
+	background-color: #008B45;
+}
+
+.navbar-nav #home:focus {
+	font-family: Sintony;
+	color: #080808;
+	background-color: #26a65b;
+}
+
+#home {
+	background-color: #26A65B;
+}
+
+#home h3 {
+	color: #f8f8f8;
+	text-align: center;
+	font-family: Telegrafico;
+	font-size: 30px;
+}
+
+@font-face {
+	font-family: Exo Regular;
+	src: url('../cursor_fonts/exo-regular-webfont.eot');
+	src: url('../cursor_fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/exo-regular-webfont.woff') format('woff'), url('../fonts/exo-regular-webfont.ttf') format('truetype'), url('../fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
+}
+
+#home h1 {
+	color: #f8f8f8;
+	text-align: center;
+	font-family: Exo Regular;
+	font-size: 40px;
+}
+
+.section-title {
+	font-family: Telegrafico;
+	font-size: 30px;
+	text-align: center;
+}
+
+#contact {
+	background-color: #26A65B;
+}
