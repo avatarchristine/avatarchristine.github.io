@@ -18,17 +18,17 @@ a:focus {
 #navcont {
 	position: fixed;
 	width: 101.1%;
-	background-color: #26A65B;
+	background-color: #080808;
 	z-index: 1;
 }
 
 .nav {	
-	background-color: #26A65B;
+	background-color: #080808;
 	z-index: 1;
 }
 
 .navbar-nav {
-	background-color: #26A65B;
+	background-color: #080808;
 	float: right;
 }
 
@@ -38,16 +38,16 @@ a:focus {
 	background-repeat: no-repeat;
 }
 
-.nav li {
+.nav li a {
 	font-family: Sintony;
-	color: #080808;
-	background-color: #26A65B;
+	color: #f8f8f8;
+	background-color: #080808;
 	transition: all 0.3s ease-out;
 }
 
 .navbar-nav li a:hover {
 	font-family: Sintony;
-	color: #080808;
+	color: #f8f8f8;
 	background-color: #008B45;
 }
 
