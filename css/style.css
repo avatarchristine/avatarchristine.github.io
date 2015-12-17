@@ -1,36 +1,32 @@
-.row {
-	width: 101.1%;
+h3 {
+	font-family: Times New Roman;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #080808;
+}
+
+li {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #080808;
 }
 
 a {
+	font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
 	color: #080808;
-	transition: all 0.3s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 a:hover {
 	color: #bfbfbf;
-	transition: all 0.3s ease-in;
+	transition: all 0.1s ease-in;
 }
 
-a:focus {
-	color: #26A65B;
-}
-
-@font-face {
-	font-family: Exo Regular;
-	src: url('../fonts/exo-regular-webfont.eot');
-	src: url('../fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/exo-regular-webfont.woff') format('woff'), url('../fonts/exo-regular-webfont.ttf') format('truetype'), url('../fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
-}
-
-h1 {
+a:visited {
 	color: #080808;
-	text-align: center;
-	font-family: Exo Regular;
-	font-size: 40px;
-}
-
-.section-title {
-	font-family: Telegrafico;
-	font-size: 30px;
-	text-align: center;
 }
