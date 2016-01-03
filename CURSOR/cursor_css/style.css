@@ -31,8 +31,10 @@ a:focus {
 	text-align: center;
 }
 
-#line {
-	text-align: center;
+hr {
+	height: 4px;
+	background-color: #26A65B;
+	width: 20%;
 }
 
 .ctr-btn {
@@ -64,35 +66,51 @@ a:focus {
 	background-repeat: no-repeat;
 }
 
+.nav li {
+	background-color: #080808;
+	transition: all 0.3s ease-out;
+	border-bottom: 4px solid #080808;
+}
+
+.nav li:hover {
+	background-color: #1a1a1a;
+	transition: all 0.3s ease-out;
+	border-bottom: 4px solid #26a65b;
+}
+
 .nav li a {
 	font-family: Sintony;
 	color: #f8f8f8;
-	background-color: #080808;
+}
+
+.nav li a:visited {
+	font-family: Sintony;
+	color: #f8f8f8;
+}
+
+.nav li a:hover {
+	font-family: Sintony;
+	color: #f8f8f8;
+	background-color: #1a1a1a;
 	transition: all 0.3s ease-out;
 }
 
-.navbar-nav li a:hover {
-	font-family: Sintony;
-	color: #f8f8f8;
-	background-color: #008B45;
-}
-
-.navbar-nav li a:focus {
+/*.navbar-nav li a:focus {
 	font-family: Sintony;
 	color: #080808;
 	background-color: #008B45;
-}
+}*/
 
-.navbar-nav #home:focus {
+/*.navbar-nav #home:focus {
 	font-family: Sintony;
 	color: #080808;
 	background-color: #26a65b;
-}
+}*/
 
 /* #title */
 
 #title {
-	background-color: #26A65B;
+	background-color: #26a65b;
 }
 
 #title h3 {
