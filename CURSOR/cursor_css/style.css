@@ -6,6 +6,12 @@
 	src: url('../cursor_fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../cursor_fonts/exo-regular-webfont.woff') format('woff'), url('../cursor_fonts/exo-regular-webfont.ttf') format('truetype'), url('../cursor_fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
 }
 
+@font-face {
+	font-family: Exo Regular;
+	src: url('../cursor_fonts/exo-regular-webfont.eot');
+	src: url('../cursor_fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../cursor_fonts/exo-regular-webfont.woff') format('woff'), url('../cursor_fonts/exo-regular-webfont.ttf') format('truetype'), url('../cursor_fonts/exo-regular-webfont#exo-regular-webfont') format('svg');
+}
+
 /* all attributes */
 
 .row {
@@ -17,7 +23,7 @@ a {
 }
 
 a:hover {
-	background-color: #26A65B;
+	background-color: #019875;
 	color: #bfbfbf;
 }
 
@@ -33,12 +39,31 @@ a:focus {
 
 hr {
 	height: 4px;
-	background-color: #26A65B;
+	background-color: #019875;
 	width: 20%;
 }
 
 .ctr-btn {
 	text-align: center;
+}
+
+.btn {
+	background-color: #019875;
+	border-color: #1e663e;
+}
+
+.btn:hover {
+	background-color: #1e663e;
+}
+
+.btn:focus {
+	background-color: #019875;
+	border-color: #1e663e;
+}
+
+.btn:visited {
+	background-color: #019875;
+	border-color: #1e663e;
 }
 
 /* navbar */
@@ -61,7 +86,7 @@ hr {
 }
 
 .navbar-default .navbar-inverse {
-	background-color: #26A65B;
+	background-color: #019875;
 	background-image: none;
 	background-repeat: no-repeat;
 }
@@ -75,7 +100,7 @@ hr {
 .nav li:hover {
 	background-color: #1a1a1a;
 	transition: all 0.3s ease-out;
-	border-bottom: 4px solid #26a65b;
+	border-bottom: 4px solid #019875;
 }
 
 .nav li a {
@@ -104,13 +129,13 @@ hr {
 /*.navbar-nav #home:focus {
 	font-family: Sintony;
 	color: #080808;
-	background-color: #26a65b;
+	background-color: #019875;
 }*/
 
 /* #title */
 
 #title {
-	background-color: #26a65b;
+	background-color: #019875;
 }
 
 #title h3 {
@@ -152,11 +177,15 @@ hr {
 /* #contact */
 
 #contact {
-	background-color: #26A65B;
+	background-color: #019875;
+}
+
+#contact h2 {
+	color: #f8f8f8;
 }
 
 #contact h5 {
-	font-family: ;
+	font-family: Tahoma;
 	font-size: 18px;
 }
 
