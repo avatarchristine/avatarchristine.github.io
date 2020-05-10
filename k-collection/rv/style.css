@@ -1,0 +1,114 @@
+body {
+	background-color: #F8A39D;
+}
+
+/*
+FC8F9B - conch shell
+F8A39D - candlelight peach
+EE6D8A - pink lemonade
+EA6676 - sun kissed coral
+A32857 - vivacious
+*/
+
+.title {
+	padding: 20px 0px 30px 0px;
+}
+
+h3 {
+	font-family: Lemon Milk Light;
+	color: #EA6676;
+}
+
+h5 {
+	font-family: Lemon Milk Thin;
+	color: #EA6676;
+}
+
+h6 {
+	line-height: 0px;
+	font-size: 24px;
+	font-family: Lato;
+	color: #EA6676;
+}
+
+#top .row .m3 {
+	padding: 0px;
+}
+
+.divider {
+	background-color: #EA6676;
+}
+
+.card-image {
+	height: 100%;
+	width: 100%;
+}
+
+.card .card-content {
+	padding: 20px;
+}
+
+@media (max-width: 400px) {
+	.card .card-content {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 373px) {
+	.card .card-content {
+		padding: 10px;
+	}
+
+	/*span {
+		font-size: 13px;
+		font-family: Lato Light;
+	}*/
+}
+
+span {
+	font-family: Lato;
+}
+
+a {
+	font-family: Lato;
+	color: #9D446E;
+}
+
+a:visited {
+	color: #9D446E;
+}
+
+a:hover {
+	color: #ffd1c3;
+/*	text-decoration: underline;*/
+}
+
+.irene {
+	background-color: #ffb3ba;
+	color: #EE6D8A;
+}
+
+.seulgi {
+	background-color: #ffffba;
+	color: #FFC312;
+}
+
+.wendy {
+	background-color: #bae1ff;
+	color: #70a1ff;
+}
+
+.joy {
+	background-color: #baffc9;
+	color: #2ecc71;
+}
+
+.yeri {
+	background-color: #e1bfff;
+	color: #D980FA;
+}
+
+.rv {
+	background-color: #FFD1C3;
+	color: #FC8F9B;
+}
