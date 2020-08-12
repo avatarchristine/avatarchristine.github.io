@@ -1,0 +1,81 @@
+body {
+	background-color: #f8f8f8;
+}
+
+/*#f4a6d7
+#9adbe8
+#eee29f*/
+
+.title {
+	padding: 20px 0px 30px 0px;
+}
+
+h3 {
+	font-family: Lemon Milk Light;
+	color: #f4a6d7;
+}
+
+h5 {
+	font-family: Lemon Milk Thin;
+	color: #9adbe8;
+}
+
+h6 {
+	line-height: 0px;
+	font-size: 24px;
+	font-family: Lato;
+	color: #f4a6d7;
+}
+
+#top .row .m3 {
+	padding: 0px;
+}
+
+.divider {
+	background-color: #f4a6d7;
+}
+
+.card-image {
+	height: 100%;
+	width: 100%;
+}
+
+.card .card-content {
+	padding: 20px;
+}
+
+@media (max-width: 400px) {
+	.card .card-content {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 373px) {
+	.card .card-content {
+		padding: 10px;
+	}
+
+	/*span {
+		font-size: 13px;
+		font-family: Lato Light;
+	}*/
+}
+
+span {
+	font-family: Lato;
+	color: #7f8c8d;
+}
+
+a {
+	font-family: Lato;
+	color: #9adbe8;
+}
+
+a:visited {
+	color: #9adbe8;
+}
+
+a:hover {
+	color: #eee29f;
+	text-decoration: underline;
+}
