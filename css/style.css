@@ -1,0 +1,14 @@
+body {
+	background-color: #1a1a1a;
+	color:  white;
+}
+
+#title {
+	text-align: center;
+	font-family: Lemon Milk Light;
+}
+
+p {
+	font-family: Lato;
+	font-size: 18px;
+}
